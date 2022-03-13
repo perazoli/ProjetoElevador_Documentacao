@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Documentação Projeto Elevador</h1>
+    <h2>Por: Matias Perazoli </h2>
+</div>
+<div>
+    <h3>Inicializando o elevador</h3>
+    <p>Quando iciniamos o aplicativo ele solicita a quantidade de andares e a capacidade máxima de pessoas no elevador.
+    Importante: não há verificação de erro caso o número de andares e quantidade de pessoas não seja um valor inteiro válido, o aplicativo irá interromper a execução em erro.
+    
+    </p>
+    
+    <h4>Tela inicial - solicita a quantidade de andares do elevador</h4>
+    <p>
+
+
+    </p>
+    <img src=/img/img1.jpg />
+    <p>
+
+
+    </p>
+    <h4>Tela inicial - solicita a capacidade de pessoas do elevador</h4>
+    <p>
+
+
+    </p>
+    <img src=/img/img3.jpg />
+
+</div>
+<div>
+    <h3>Iniciando a operação do elevador</h3>
+    <p>
+        Depois de inicializado, o elevador apresenta o menu de opções e o andar em que ele está e a quantidade de pessoas no elevador. Sempre que iniciado, o elevador começa no térreo (andar 0) e vazio.
+
+
+
+    </p>
+    <img src=/img/img4.jpg />
+
+    <h4>Opção 1 - Subir</h4>
+    <p>Quando selecionada a Opção 1 - Subir de Andar, o sistema verifica se o elevador não está no último andar e se não estiver, sobre 1 andar.  </p>
+    <p>Subindo de andar
+
+
+    </p>
+    <img src=/img/img5.jpg />
+    <p> 
+        Se o elevador já estiver no último andar, informa que já chegou no último andar e não sobe de andar
+    </p>
+    <img src=/img/img10.jpg />
+
+    <h4>Opção 2 - Descer</h4>
+    <p>
+        Quando selecionada a Opção 2 - Descer, o sistema verifica se não está no térreo, se não estiver, desce 1 andar.
+        Descendo de andar.
+    </p>
+    <img src=/img/img6.jpg />
+
+    <p>Se o elevado já estiver no térreo, informa que já está no térreo e não desce mais</p>
+    
+    <img src=/img/img9.jpg />
+
+    <h4> Opção 3 - Entrar </h4>
+    <p>
+        Adiciona um apessoa no elevador. O sistema verifica se o elevador não está lotado, se estiver, avisa para aguardar o próximo elevador.
+        Se ainda houver espaço, aumenta a quantidade de pessoas em 1.
+    </p>
+
+    <img src=/img/img7.jpg />
+
+    <p>Se o elevador estiver lotado, avisa e pede para aguardar o próximo</p>
+
+    <img src=/img/img12.jpg />
+
+    <h4> Opção 4 - Sair</h4>
+    <p> Retira uma pessoa do elevador, se ele não estiver vazio</p>
+    <p> Se o elevador não estiver vazio, diminui em 1 a quantidade de pessoas no elevaor</p>
+    <img src=/img/img8.jpg />
+    <p> Se estiver vazio, avisa que está vazio</p>
+    <img src=/img/img11.jpg />
+
+    <h4>Opção 5 - Encerrar</h4>
+    <p>Encerra o aplicativo</p>
+</div>
